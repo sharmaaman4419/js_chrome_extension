@@ -1,2 +1,38 @@
 /* Importing Normalize css */
 @import url("normalize.css");
+body {
+    background-image: url(../img/back.jpeg);
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+   
+}
+.addtodos {
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 20px;
+    border: 3px solid black;
+    text-transform: capitalize;
+    background: transparent;
+
+}
+.todo {
+    color:  white;
+}
+.list {
+    color: red;
+}
+.extension {
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 500px;
+    text-decoration: underline;
+    line-height: 4px;
+}
